@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFrame"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgDot"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgH"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgM"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgS"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/imgDot2"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgTime"-->
+        <!--android:layout_width="512dp"-->
+        <!--android:layout_height="512dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:contentDescription="@null" />-->
+
+    <ImageView
+        android:id="@+id/imgFg"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <!--<ImageView-->
+    <!--android:layout_width="512dp"-->
+    <!--android:layout_height="512dp"-->
+    <!--android:layout_alignBottom="@+id/imgFrame"-->
+    <!--android:layout_alignLeft="@+id/imgFrame"-->
+    <!--android:layout_alignRight="@+id/imgFrame"-->
+    <!--android:layout_alignTop="@+id/imgFrame"-->
+    <!--android:src="@drawable/root_calling_gradient" />-->
+
+    <ViewFlipper
+        android:id="@+id/vfOverlay"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_centerInParent="true"
+        android:animateFirstView="true"
+        android:autoStart="true"
+        android:flipInterval="50"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_1_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_2_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_3_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_4_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_5_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_6_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_7_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_8_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_9_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_10_gradient_background" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/overlay_11_gradient_background" />
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_12_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_13_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_14_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_15_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_16_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_17_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_18_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_19_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_20_gradient_background" />-->
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/overlay_21_gradient_background" />-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ViewFlipper>
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/pbOverlay"-->
+    <!--style="@android:style/Widget.ProgressBar.Horizontal"-->
+    <!--android:layout_width="512dp"-->
+    <!--android:layout_height="512dp"-->
+    <!--android:layout_alignBottom="@+id/imgFrame"-->
+    <!--android:layout_alignLeft="@+id/imgFrame"-->
+    <!--android:layout_alignRight="@+id/imgFrame"-->
+    <!--android:layout_alignTop="@+id/imgFrame"-->
+    <!--android:indeterminate="true"-->
+    <!--android:progressDrawable="@drawable/progress_horizontal" />-->
+</RelativeLayout>
